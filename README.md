@@ -18,4 +18,4 @@ The project implements the following functionalities:
 
 ## Deployment
 
-This project was deployed using Heroku and you can click [here](https://react-search-photos.herokuapp.com/) to view it live and search photos by album id. I hope you enjoy!
+This project was deployed on Heroku and you can click [here](https://react-search-photos.herokuapp.com/) to view it live and search photos by album id. I hope you enjoy!
