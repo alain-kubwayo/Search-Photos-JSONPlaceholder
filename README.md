@@ -1,6 +1,6 @@
 # Search-Photos-JSONPlaceholder
 
-In this project, a simple search form with one input field and a "Get Album Photos By Id" button was implemented using ReactJS. TailwindCSS was also used for styling to ensure that the photos retrieved from [JSON Placeholder](https://jsonplaceholder.typicode.com/), a free fake API for testing an prototyping, look presentable on viewers' screens. 
+In this project, a simple search form with one input field and a "Get Album Photos By Id" button was implemented using ReactJS. TailwindCSS was also used for styling to ensure that the photos retrieved from [JSON Placeholder](https://jsonplaceholder.typicode.com/), a free fake API for testing and prototyping, look presentable on viewers' screens. 
 
 ## Implemented Functionalities
 
