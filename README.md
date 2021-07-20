@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Search-Photos-JSONPlaceholder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project, a simple search form with one input field and a "Get Album Photos By Id" button was implemented using ReactJS. TailwindCSS was also used for styling to ensure that the photos retrieved from [JSON Placeholder](https://jsonplaceholder.typicode.com/), a free fake API for testing an prototyping, look presentable on viewers' screens. 
 
-## Available Scripts
+## Implemented Functionalities
 
-In the project directory, you can run:
+The project implements the following functionalities:
 
-### `yarn start`
+* The user can enter an album id in the input field and up on clicking the "Get Album Photos By Id" button, the title and a thumbnail image of all the photos of the album by that id are displayed on the page
+* To implement the above functionality, the following endpoint was used: https://jsonplaceholder.typicode.com/albums/{albumId}/photos 
+* In the above endpoint, albumId is just a number between 1 and 100 inclusive. For instance https://jsonplaceholder.typicode.com/albums/1/photos will give you the photos of the album whose id is just 1 
+* Input field was validated to ensure that the user only query the right id and the id within the range
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* ReactJS
+* TailwindCSS
 
-### `yarn test`
+## Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was deployed using Heroku and you can click [here](https://react-search-photos.herokuapp.com/) to view it live and search photos by album id. I hope you enjoy!
